@@ -10,6 +10,8 @@ import android.widget.Button;
 public class AiProjects extends AppCompatActivity {
     Button join1,join2,join3,join4,back,gotoprofile;
     @Override
+    //We created static data because there are projects prepared by the system and other people.
+    // Tuana wrote these codes
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ai_projects);

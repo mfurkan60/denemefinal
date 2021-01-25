@@ -23,7 +23,7 @@ import com.google.firebase.storage.StorageReference;
 
 public class ProfilePage extends AppCompatActivity {
     ImageView ProfileImg;
-    TextView ProfileTitle,ProfileJob,ProfileText;
+    TextView ProfileTitle,ProfileJob,ProfileText,Soyad;
     Button ProfileProjectBtn,ProfileGrup,ProfileFav,ProfileMainPAge,ProfileSetings,logout,cık;
     FirebaseDatabase database;
     FirebaseAuth auth;
@@ -31,6 +31,7 @@ public class ProfilePage extends AppCompatActivity {
     DatabaseReference reference;
     String Groups,Projects;
     //Storage Referancedan birreferans oluşturduk
+    //MErt  wrote these codes
     StorageReference storageReference;
 
     @Override
@@ -61,18 +62,7 @@ public class ProfilePage extends AppCompatActivity {
         storageReference = FirebaseStorage.getInstance().getReference();
 
     }
-            public void cık(){
-        // !!!!!!!!!!!!!!!!!!!!!cıkıs işleminde sıkıntılar var!!!!!!!!!!
-                logout=findViewById(R.id.logout);
-                logout.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        auth.signOut();
-                        Intent intent = new Intent(getApplicationContext(),MainActivity.class);
-                        startActivity(intent);
-                    }
-                });
-            }
+
     public void ProfileButtonDesc(){
         //Butonlar Tanımı ve Clik olayı
 

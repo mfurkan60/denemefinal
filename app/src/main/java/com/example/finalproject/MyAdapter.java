@@ -12,7 +12,9 @@ import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 
 public class MyAdapter extends FirebaseRecyclerAdapter<model,MyAdapter.myviewholder> {
-
+        // // Created adapter for connect to datas in Group database
+        //
+        //    // Mert  wrote these codes
     public MyAdapter(@NonNull FirebaseRecyclerOptions<model> options) {
         super(options);
     }
@@ -34,7 +36,7 @@ public class MyAdapter extends FirebaseRecyclerAdapter<model,MyAdapter.myviewhol
     }
 
     class myviewholder extends RecyclerView.ViewHolder{
-
+        //    // Mert  wrote these codes
     TextView GroupBaslik, GroupAcik;
     public myviewholder(@NonNull View itemView) {
         super(itemView);

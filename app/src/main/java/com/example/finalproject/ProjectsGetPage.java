@@ -14,6 +14,7 @@ public class ProjectsGetPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_projects_get_page);
+        //Mert wrote these codes
 
         MycreateProject = findViewById(R.id.MycreateProject);
         MycreateProject.setOnClickListener(new View.OnClickListener() {

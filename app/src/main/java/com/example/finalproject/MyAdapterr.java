@@ -12,6 +12,9 @@ import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 
 public class MyAdapterr extends FirebaseRecyclerAdapter<modell,MyAdapterr.Myviewholder> {
+    // Created adapter for connect to datas in Project database
+
+    // Mert  wrote these codes
 
     public MyAdapterr(@NonNull FirebaseRecyclerOptions<modell> options) {
         super(options);
@@ -33,7 +36,7 @@ public class MyAdapterr extends FirebaseRecyclerAdapter<modell,MyAdapterr.Myview
     }
 
     class Myviewholder extends RecyclerView.ViewHolder{
-
+        //Mert wrote these codes
         TextView Projekategori,Projeisim,projeaciklama;
         public Myviewholder(@NonNull View itemView) {
             super(itemView);

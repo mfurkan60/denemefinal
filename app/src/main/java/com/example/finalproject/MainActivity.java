@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     FirebaseDatabase database;
     FirebaseAuth auth;
 
-
+    //    // Tuana   wrote these codes, MAin Section
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
+    // Tuana   wrote these codes, MAin Section
     public  void  MainPageClick(){
         singup.setOnClickListener(new View.OnClickListener() {
             @Override

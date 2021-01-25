@@ -9,6 +9,8 @@ import android.widget.Button;
 
 public class WebProjects extends AppCompatActivity {
     Button join1,join2,join3,join4,back,gotoprofile;
+    //We created static data because there are projects prepared by the system and other people.
+    // Tuana wrote these codes
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +35,7 @@ public class WebProjects extends AppCompatActivity {
 
 
 
+        // Tuana wrote these codes
         join1 = findViewById(R.id.join1);
         join1.setOnClickListener(new View.OnClickListener() {
             @Override

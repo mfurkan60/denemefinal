@@ -4,7 +4,7 @@ public class model {
 
     String GroupBaslik,GroupAcik;
 
-
+    // Mert    wrote these codes, model.java is means that Groups model
     public model() {
     }
 

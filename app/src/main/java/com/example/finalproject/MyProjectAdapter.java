@@ -12,9 +12,10 @@ import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 
 public class MyProjectAdapter extends FirebaseRecyclerAdapter<projectModels,MyProjectAdapter.myviewholder> {
-
+    // Mert wrote these codes
     public MyProjectAdapter(@NonNull FirebaseRecyclerOptions<projectModels> options) {
         super(options);
+
     }
 
     @Override

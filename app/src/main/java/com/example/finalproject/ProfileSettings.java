@@ -28,7 +28,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ProfileSettings extends AppCompatActivity {
-
+    //Mert  wrote these codes
     ImageView ProfileImg;
     EditText UpdateName,UpdateSurname,UpdateCity,Job,
             UpdateAboutMe;

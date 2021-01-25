@@ -14,7 +14,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class MyAllProjects extends AppCompatActivity {
 
 
-
+//Tuana wrote these codes
     RecyclerView rec;
     FirebaseAuth auth;
     FirebaseUser user;

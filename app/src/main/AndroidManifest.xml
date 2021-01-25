@@ -18,9 +18,6 @@
         <activity android:name=".ProjectsGetPage" />
         <activity android:name=".deneme" />
         <activity android:name=".CreateGroup" />
-        <activity android:name=".MyFavoriteProjects" />
-        <activity android:name=".AddNewMember" />
-        <activity android:name=".GrouopInformation" />
         <activity android:name=".ProfileSettings" />
         <activity android:name=".MyGrups" />
         <activity android:name=".ProfilePage" />

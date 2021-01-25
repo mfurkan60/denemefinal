@@ -26,6 +26,8 @@ public class HomePage extends AppCompatActivity {
     FirebaseAuth fauth;
      FirebaseAuth.AuthStateListener authstate;
 
+     // MErt wrote codes here!
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

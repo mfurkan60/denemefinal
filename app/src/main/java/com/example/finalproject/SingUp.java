@@ -24,8 +24,8 @@ import java.util.Map;
 
 public class SingUp extends AppCompatActivity {
     TextView SingUPTitle,OkMembership;
-    EditText name,surname,email,pass,rePass;
-
+    EditText email,pass,rePass;
+  //Mert wrote these codes
     Button Singup,SingIn;
     //Database Instence
     FirebaseDatabase database;
@@ -43,13 +43,9 @@ public class SingUp extends AppCompatActivity {
         getInstanceFirebase();
 
 
-
-
-
-
     }
     public void getInstanceFirebase(){
-        //get instance to firebase database. Login to Firebase
+        //get instance to firebase database. Login to Firebase Mert wrote these codes
         database = FirebaseDatabase.getInstance();
     }
     public void SingUpDef(){
@@ -67,6 +63,7 @@ public class SingUp extends AppCompatActivity {
                     pass.setText("");
                     kayitol(input_email,input_pass);
                 }else{
+                    //Mert wrote these codes
                     Toast.makeText(getApplicationContext(),"BilgileriBoşGiremezsiniz",Toast.LENGTH_LONG).show();
                 }
 
@@ -82,7 +79,7 @@ public class SingUp extends AppCompatActivity {
             }
         });
 
-        //MemberShip Button
+        //MemberShip Button Mert wrote these codes
         OkMembership =findViewById(R.id.OkMembership);
         OkMembership.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -104,7 +101,7 @@ public class SingUp extends AppCompatActivity {
                                                                                 //id değerini otomatik aldık
                   reference = database.getReference().child("Kullanicilar").child(auth.getUid());
 
-
+                    //Mert and  Tuana wrote these codes
                   Map map =new HashMap();
                   map.put("resim","null");
                   map.put("isim","null");

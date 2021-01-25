@@ -17,7 +17,7 @@ public class deneme extends AppCompatActivity {
     FirebaseAuth auth;
     FirebaseUser user;
     MyAdapter  adapter;
-
+    //   // MErt   wrote these codes, in here  here we pulled the information about the group
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

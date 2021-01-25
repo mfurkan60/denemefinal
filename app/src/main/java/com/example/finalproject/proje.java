@@ -21,7 +21,7 @@ public class proje extends AppCompatActivity {
     FirebaseUser user;
     MyAdapterr  Adapter;
 
-
+//Tuana wrote these codes
 
 
     @Override

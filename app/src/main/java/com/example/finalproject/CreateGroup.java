@@ -31,7 +31,7 @@ public class CreateGroup extends AppCompatActivity {
     FirebaseUser user;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
+        //   // Tuana   wrote these codes, Create Group
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_group);
         CreateGroupDes();

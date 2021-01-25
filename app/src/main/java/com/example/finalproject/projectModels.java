@@ -3,6 +3,7 @@ package com.example.finalproject;
 public class projectModels {
 
 // Bu kodlar en güncel ve en son tesst edilen kodlarıdır. Hepsi çalışyor
+    //Mert wrote these codes
     String ProjectName, PojectCat ,ProjectDesc;
 
 

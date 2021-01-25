@@ -3,7 +3,7 @@ package com.example.finalproject;
 public class modell {
     String projeaciklama ,Projekategori, Projeisim;
 
-
+    // Mert    wrote these codes, Modell is means that project models
     public modell() {
     }
 

@@ -27,7 +27,7 @@ public class MyGrups extends AppCompatActivity {
 
     TextView MyGrupsTitle,MyGroupsDesc;
     Button Profile,allMyGroups,createGroup;
-
+//Tuana wrote these codes
 
 
 

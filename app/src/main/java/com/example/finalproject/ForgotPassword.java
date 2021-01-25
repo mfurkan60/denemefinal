@@ -24,7 +24,7 @@ public class ForgotPassword extends AppCompatActivity {
     FirebaseStorage fStorage;
     FirebaseUser user;
     String UserId;
-
+        //Forgot Password here, Tuana wrote these codes
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,7 +43,7 @@ public class ForgotPassword extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             String email = email_adress.getText().toString();
-
+            //Firebase create getInstance Tuana wrote these codes
             fAuth = FirebaseAuth.getInstance();
             fStorage=FirebaseStorage.getInstance();
            UserId = fAuth.getCurrentUser().getUid();
@@ -54,7 +54,7 @@ public class ForgotPassword extends AppCompatActivity {
            }
 
            else{
-
+                //Tuana wrote these codes
             fAuth.sendPasswordResetEmail(email).addOnSuccessListener(new OnSuccessListener<Void>() {
                 @Override
                 public void onSuccess(Void aVoid) {

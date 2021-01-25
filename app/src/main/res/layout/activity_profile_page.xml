@@ -27,6 +27,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ali Veli" />
+    <TextView
+        android:id="@+id/Soyad"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:paddingLeft="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ali Veli" />
+
 
     <TextView
         android:id="@+id/ProfileJob"
@@ -99,30 +110,28 @@
     </LinearLayout>
 
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        >
+        android:layout_marginTop="0dp">
 
         <Button
             android:id="@+id/ProfileMainPAge"
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="#037bfc"
-            android:textColor="#fff"
-            android:text="Main Page" />
+            android:text="Main Page"
+            android:textColor="#fff" />
 
         <Button
             android:id="@+id/ProfileSetings"
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="#de003f"
-            android:textColor="#fff"
-            android:text="Settings" />
+            android:text="Settings"
+            android:textColor="#fff" />
     </LinearLayout>
 
 

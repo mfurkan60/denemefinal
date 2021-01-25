@@ -4,6 +4,7 @@ public class MyGroupsModal {
     private  String groupName;
     private  String groupDes;
     private  String groupMembers;
+    // Tuana  wrote these codes
 
     public MyGroupsModal() {
     }

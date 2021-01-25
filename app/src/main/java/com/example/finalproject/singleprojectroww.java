@@ -10,6 +10,7 @@ import android.widget.Button;
 public class singleprojectroww extends AppCompatActivity {
     Button cancel;
     @Override
+    //   // Mert    wrote these codes,
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singleprojectroww);

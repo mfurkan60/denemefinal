@@ -22,6 +22,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CreateNewProject extends AppCompatActivity {
+    // Tuana wrote codes here!
     TextView createprojectText;
     EditText projectName,projectCat,projectDesc;
     Button createProject;

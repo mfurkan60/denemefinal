@@ -55,38 +55,4 @@
 
     </RelativeLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="150dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/addproje"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#0033cc"
-            android:text="Add To Favorite"
-            android:textColor="#fff" />
-
-        <Button
-            android:id="@+id/joinproje"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#00de1a"
-            android:text="Join"
-            android:textColor="#fff" />
-
-        <Button
-            android:id="@+id/cancel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#de003f"
-            android:text="Cancel"
-            android:textColor="#fff" />
-    </LinearLayout>
-
 </androidx.cardview.widget.CardView>
